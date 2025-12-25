@@ -8,12 +8,16 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: #136207;
+        background-color: #014421;
+    }
+    h1, h2, h3, p, label {
+        color: yellow;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 
 st.title("✈️ Travel & Ticket Booking Dashboard")
