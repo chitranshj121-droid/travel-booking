@@ -4,19 +4,6 @@ import pandas as pd
 
 # Date
 current_date = datetime.now().date()
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-color: #014421;
-    }
-    h1, h2, h3, p, label {
-        color: yellow;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
 
 
 
