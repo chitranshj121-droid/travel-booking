@@ -8,12 +8,13 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: ##013220;
+        background-color: #136207;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
+
 
 st.title("✈️ Travel & Ticket Booking Dashboard")
 st.write("Current Date:", current_date)
