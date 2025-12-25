@@ -4,16 +4,11 @@ from datetime import datetime
 import pandas as pd
 
 # Date
-
-
-
+current_date = datetime.now().date()
 
 
 
 st.title("✈️ Travel & Ticket Booking Dashboard")
-
-
-
 st.write("Current Date:", current_date)
 st.write("Welcome to your trusted travel and ticketing partner.")
 
@@ -76,7 +71,4 @@ st.footer = st.write("Special thanks goes to:")
 st.footer = st.write("BIRENDRA SINGH ")
 st.footer = st.write("TANISHKA SHARMA")
 st.footer = st.write("DIVYANSHI JAIN")
-st.footer = st.write("FOR RUNNING ADDS MAIL TO chitranshj121@gmail.com")
-
-
-
+st.footer = st.write("FOR RUNNING ADDS MAIL TO- chitranshj121@gmail.com)
