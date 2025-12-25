@@ -70,7 +70,7 @@ st.footer = st.write("Special thanks goes to:")
 st.footer = st.write("BIRENDRA SINGH ")
 st.footer = st.write("TANISHKA SHARMA")
 st.footer = st.write("DIVYANSHI JAIN")
-st.footer = st.write("FOR RUNNING ADDS MAIL TO- chitranshj121@gmail.com)
+st.footer = st.write("FOR RUNNING ADDS MAIL TO chitranshj121@gmail.com")
 
 
 
