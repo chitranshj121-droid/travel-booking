@@ -4,6 +4,16 @@ import pandas as pd
 
 # Date
 current_date = datetime.now().date()
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f8ff;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 st.title("✈️ Travel & Ticket Booking Dashboard")
 st.write("Current Date:", current_date)
