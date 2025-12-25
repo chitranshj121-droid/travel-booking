@@ -67,12 +67,10 @@ if option == "Flights":
 st.footer = st.write("Thank you for visiting us. Have a pleasant journey! 🌍")
 st.footer = st.write("CHITRANSH J(DATA ANALYST) APPLE PARK ")
 st.footer = st.write("Special thanks goes to:")
-
 st.footer = st.write("BIRENDRA SINGH ")
-
 st.footer = st.write("TANISHKA SHARMA")
-
 st.footer = st.write("DIVYANSHI JAIN")
+st.footer = st.write("FOR RUNNING ADDS MAIL TO- chitranshj121@gmail.com)
 
 
 
