@@ -1,12 +1,9 @@
-
 import streamlit as st
 from datetime import datetime
 import pandas as pd
 
 # Date
 current_date = datetime.now().date()
-
-
 
 st.title("✈️ Travel & Ticket Booking Dashboard")
 st.write("Current Date:", current_date)
@@ -65,10 +62,13 @@ if option == "Flights":
     if st.button("Book Flight"):
         st.success(f"✅ {selected_flight} booked successfully for tomorrow!")
 
-st.footer = st.write("Thank you for visiting us. Have a pleasant journey! 🌍")
-st.footer = st.write("CHITRANSH J(DATA ANALYST) APPLE PARK ")
-st.footer = st.write("Special thanks goes to:")
-st.footer = st.write("BIRENDRA SINGH ")
-st.footer = st.write("TANISHKA SHARMA")
-st.footer = st.write("DIVYANSHI JAIN")
-st.footer = st.write("FOR RUNNING ADDS MAIL TO- chitranshj121@gmail.com)
+# Footer
+st.markdown("---")
+st.write("Thank you for visiting us. Have a pleasant journey! 🌍")
+st.write("**CHITRANSH J (Data Analyst)**")
+st.write("Special thanks to:")
+st.write("- Birendra Singh")
+st.write("- Tanishka Sharma")
+st.write("- Divyanshi Jain")
+st.write("📧 For running ads mail to: chitranshj121@gmail.com")
+
