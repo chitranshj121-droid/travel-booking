@@ -6,11 +6,9 @@ from datetime import datetime
 import pandas as pd
 
 # Date
-current_date = datetime.now().date()
-audio_file = open("Swing-Machine-chosic.com_.mp3", "rb")
-audio_bytes = audio_file.read()
 
-st.audio(audio_bytes, format="audio/mp3", start_time=0)
+
+
 
 
 
