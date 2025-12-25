@@ -63,4 +63,5 @@ if option == "Flights":
         st.success(f"✅ {selected_flight} booked successfully for tomorrow!")
 
 st.footer = st.write("Thank you for visiting us. Have a pleasant journey! 🌍")
+st.footer = st.write("CHIUTRANSH J(DATA ANALYST) APPLE PARK ")
 
