@@ -2,12 +2,13 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 
-# Date
+# Date (FIX)
 current_date = datetime.now().date()
 
 st.title("✈️ Travel & Ticket Booking Dashboard")
 st.write("Current Date:", current_date)
 st.write("Welcome to your trusted travel and ticketing partner.")
+
 
 # User details
 st.header("Passenger Details")
