@@ -3,7 +3,7 @@ from datetime import datetime
 import pandas as pd
 # changing background colors
 body {   background-color: #72DDF7; 
-                }
+}
 
 
 
