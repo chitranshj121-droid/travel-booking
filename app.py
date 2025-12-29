@@ -2,11 +2,16 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 # changing background colors
-body {
-  background-color: #f4f6f8;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-color: #f0f8ff;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 
 
