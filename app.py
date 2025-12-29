@@ -2,7 +2,10 @@ import streamlit as st
 from datetime import datetime
 import pandas as pd
 # changing background colors
-body {   background-color: #72DDF7; 
+body {
+  background-color: #f4f6f8;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 
